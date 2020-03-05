@@ -1,11 +1,9 @@
 # Hash-Algorithms
+
+SHA-1 is a cryptographic hash function which takes an input and produces a 160-bit hash value known as a message digest – typically rendered as a hexadecimal number, 40 digits long.
+
 This was an assignment of our "Computer Networks and Security" course.
 
-The task was the following:
+### The Code:
 
-You need to implement the SHA-1 hash algorithm in a method String shaOne(byte[]
-data). Write another method to use the shaOne method where you open a file (e.g. input.dat)
-into an array of bytes and pass the array to the shaOne method. Finally display the hash value or
-the digest.
-
-Implement the same for SHA-2
+This repo contains implementations of both SHA-1 and SHA-2 algorithms written in python from scratch. It accepts a text file input and prints out the hash value/message digest. 
